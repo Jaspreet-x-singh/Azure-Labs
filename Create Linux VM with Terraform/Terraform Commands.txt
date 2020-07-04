@@ -1,0 +1,23 @@
+# To initialize the configuration
+Terraform init
+
+# To view the execution plan for your configuration
+Terraform Plan
+
+# To apply the Terraform configuration
+Terraform Apply
+
+# To inspect the current state
+Terrafrom Show
+
+# Save the plan
+Terraform plan -out=newplan
+
+# To see the execution plan for destroying the infrastructure
+Terraform plan -destroy
+
+# To destroy the resource group
+Terraform destroy
+
+# To view the output
+Terraform output ip
